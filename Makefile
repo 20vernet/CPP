@@ -4,7 +4,7 @@ AR=/usr/bin/ar -r
 
 
 
-sources:=src/affichage.cpp src/display.cpp src/food.cpp src/internals.cpp src/snake_mov.cpp
+sources:=src/affichage.cpp src/display.cpp src/food.cpp src/internals.cpp src/snake_mov.cpp src/SetUp.cpp
 obj := $(sources:.cpp=.o)
 
 
